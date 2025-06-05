@@ -1,0 +1,46 @@
+{
+  "name": "voice-broadcast-saas",
+  "version": "1.0.0",
+  "description": "A SaaS platform for voice broadcasting campaigns using Infobip's voice API",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "jest",
+    "lint": "eslint .",
+    "seed": "node src/scripts/seed.js"
+  },
+  "keywords": [
+    "voice",
+    "broadcasting",
+    "saas",
+    "infobip",
+    "autodialer",
+    "mongodb"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "mongoose": "^6.4.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.7.5",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.18.0",
+    "jest": "^28.1.1",
+    "nodemon": "^2.0.16",
+    "supertest": "^6.2.3"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
